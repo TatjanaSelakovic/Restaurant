@@ -1,0 +1,657 @@
+$white_color: white;
+$middleSize: 50%;
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    position: relative;
+}
+
+
+.flex{
+    display: flex;
+}
+
+.relative {
+    position: relative;
+}
+
+.restaurantLandingPage{
+    background: url("../images/image-intro.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.navBar{
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    padding: 30px 120px 0 120px;
+}
+
+li.nav-item img {
+    width: 20px;
+}
+
+.icons a{
+    text-decoration: none;
+    color: #e3e3e3;
+    font-size: 20px;
+}
+
+.icons ul{
+    list-style-type: none;
+}
+
+.icons li{
+    padding-right: 40px;
+}
+
+.iconsImg img{
+    width: 20px;
+}
+
+.iconsImg li{
+    padding-right: 15px;
+}
+
+.arrow {
+    position: absolute;
+    bottom: 0;
+    color: $white_color;
+    font-size: 40px;
+}
+
+.arrow i {
+    cursor: pointer;
+}
+
+.mainLanding h1{
+    color: $white_color;
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.mainLanding p{
+    color: #e3e3e3;
+    margin-bottom: 20px;
+    
+}
+
+.makeAReservationLink{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.makeAReservationLink a{
+    text-decoration: none;
+    border: 2px solid white;
+    color: white;
+    padding: 15px;
+    font-size: 30px;
+}
+
+.makeAReservationLink img{
+    width: 25px;
+}
+
+.headingSection{
+    width: 50%;
+}
+
+.headingSection h1{
+    font-size: 50px;
+}
+
+.headingSection p{
+    padding: 50px 250px 50px 0;
+}
+
+.textSection h3{
+    padding: 50px 361px 30px 0;
+}
+
+.drinksAndFood{
+    width: 33.3%;
+    text-align: center;
+}
+
+.drinksAndFood p{
+    padding: 20px 10px;
+}
+
+.drinksAndFood a{
+    text-decoration: none;
+    color: darkorange;
+    border: 2px solid darkorange;
+    padding: 10px;
+    display: inline-block;
+}
+
+.makeAwesomeHeading{
+    margin-bottom: 70px;
+}
+
+.pixFort {
+    align-items: center;
+}
+
+.howTrust{
+    background: #f0f0f0;
+}
+
+.theBestCompanies{
+    width: 25%;
+    padding: 40px;
+}
+
+.commercePics{
+    width: 75%;
+    img{
+        width: 32%;
+    }
+}
+
+
+.highQuality{
+    position: relative;
+}
+
+.backgroundImg{
+    background: url("../images/hl-6.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    position: absolute;
+    width: 50%;
+    right: 0;
+    height: 100%;
+}
+
+.restaurant{
+    padding: 60px;
+}
+
+.backgroundImgLeft{
+    background: url("../images/hl-6.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    position: absolute;
+    width: 50%;
+    left: 0;
+    height: 100%;
+}
+
+.emptyRight{
+    width: 50%;
+}
+
+.visitOurRestaurant{
+    background: rgb(41, 40, 40);
+    justify-content: center;
+    text-align: center;
+}
+
+.reservationPoput{
+    color: white;
+    padding: 50px 490px;
+    @media(max-width:1200px){
+        padding: 50px 300px;
+    }
+    @media(max-width: 991px) {
+        padding: 50px 270px;
+    }
+}
+
+.bigHeadingP{
+    font-size: 50px;
+
+}
+
+.grayTextP{
+    color: rgb(197, 195, 195);
+}
+
+.reservationPoput {
+    a{
+        text-decoration: none;
+        color: darkorange;
+        border: 2px solid darkorange;
+        padding: 10px 20px;
+        display: inline-block;
+        margin-top: 20px;
+        @media(max-width: 991px) {
+            color: yellow;
+        }
+    }
+}
+
+.wineGlass i{
+    font-size: 50px;
+    color: darkorange;
+    padding-top: 40px;
+}
+
+.flatpack{
+    background: rgb(34, 33, 33);
+}
+
+.flatpackPic{
+    width: 32%;
+    text-align: center;
+    padding: 50px;
+}
+
+.flatpackParagraph{
+    width: 32%;
+    padding: 50px 30px 0 0;
+}
+
+.flatpackHref{
+    display: flex;
+    width: 32%;
+    font-size: 50px;
+    padding: 30px;
+    a{
+        padding-right: 30px;
+    }
+}
+
+
+.awesomeParagraph{
+    width: 50%;
+}
+
+.awesomeParagraph1{
+    width: 50%;
+    font-size: 40px;
+    padding: 50px 70px 50px 50px;
+    text-align: right;
+}
+
+.awesomeParagraph p{
+    padding: 50px 250px 50px 0;
+}
+
+
+.markDue{
+    width: 50%;
+    text-align: center;
+}
+
+.markDue img{
+    border-radius: 50%;
+    padding: 30px;
+}
+
+.markDue p {
+    padding: 10px 60px;
+}
+
+.markAndJohn{
+    background: rgb(245, 245, 245);
+    padding-bottom: 50px;
+
+}
+
+.restaurant a{
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 10px 20px;
+    color: black;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.restaurant h2 {
+    padding: 20px 0;
+    color: darkorange;
+}
+
+.everyStartup{
+    text-align: center;
+    padding: 60px 220px;
+}
+
+.everyStartup h2{
+    color: blueviolet;
+    padding: 20px;
+}
+
+.newSection .nav-tabs {
+    border-bottom: 1px solid #dee2e6;
+    max-width: 300px;
+    margin: auto;
+    border: 0;
+}
+
+.newSection{
+    padding-top: 60px;
+
+}
+
+.newSection .nav-tabs li a.active{
+    background: blue;
+    color: white;
+}
+
+.reservationModal h5.modal-title{
+    color: blue !important;
+}
+
+.reservationModal .modal-dialog{
+    max-width: 600px;
+}
+
+.mainNav{
+    position: absolute;
+    top: 0;
+    max-width: 992px;
+    width: 100%;
+}
+
+.secondSection {
+    padding: 40px;
+}
+
+/* .navbar-collapse.show {
+    background: white;
+    left: 0px;
+    position: fixed;
+    top: 0;
+    width: 200px;
+    height: 100%;
+}
+
+.navbar-collapse {
+    left: -200px;
+    transition: all 0.4s;
+} */
+
+@media(max-width:1200px){
+ 
+    .highQuality .container{
+        max-width: 1200px;
+        width: 100%;
+    }
+
+    .restaurant{
+        text-align: center;
+        padding: 30px 70px;
+    }
+}
+
+@media(max-width:991px){
+    .mainLanding {
+        padding-top: 90px;
+        PADDING-BOTTOM: 90px;
+    }
+
+    .restaurantLandingPage {
+        height: auto;
+    }
+    nav.navbar.navbar-expand-lg.navbar-light.mainNav {
+        padding: 10px 50px;
+    }
+    .headingSection{
+        padding: 0;
+    }
+
+    .headingSection h1{
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .headingSection p{
+        padding: 0;
+    }
+
+    .awesomeHeading{
+        align-items: center;
+        padding: 80px 0;
+    }
+
+    .drinksAndFood h2{
+        font-size: 25px;
+    }
+
+    .highQuality .container{
+        max-width: 1200px;
+        width: 100%;
+    }
+
+    .restaurant{
+        text-align: center;
+        padding: 30px 30px;
+    }
+
+    .theBestCompanies{
+        width: 40%;
+    }
+
+    .commercePics{
+        width: 60%;
+    }
+
+    .awesomeParagraph1{
+        padding: 0;
+        text-align: inherit;
+    }
+
+    .awesomeParagraph p{
+        padding: 0;
+    }
+
+
+
+    .madeForMarketers{
+        align-items: center;
+    }
+
+    .flatpackPic{
+        padding: 50px 0;
+    }
+
+    .flatpackPic img{
+        width: 150px;
+    }
+
+    .flatpackParagraph{
+        padding: 0 25px;
+    }
+
+    .flatpackHref{
+        font-size: 35px;
+    }
+
+    .flatpack{
+        padding: 30px 0;
+    }
+
+    .flatpackPic{
+        text-align: inherit;
+    }
+}
+
+@media(max-width:767px){
+
+    .mainLanding h1{
+        font-size: 30px;
+    }
+
+    .mainLanding p{
+        padding: 0 130px;
+        text-align: center;
+    }
+
+    .makeAReservationLink a{
+        font-size: 15px;
+    }
+
+    /* .highQuality .container{
+            max-width: 1200px;
+            width: 100%; 
+    }*/
+
+    .container{
+            max-width: 1200px;
+            width: 100%;
+    }
+
+    .restaurant{
+        text-align: center;
+    }
+
+    .restaurant h2{
+        font-size: 20px;
+    }
+
+    .restaurant p{
+        padding: 0 30px;
+    }
+
+    .tab-pane{
+        padding: 30px 100px;
+    }
+
+    .awesomeParagraph1{
+        text-align: center;
+    }
+
+    .reservationPoput{
+        padding: 50px;
+    }
+
+    .flatpackPic{
+        text-align: center;
+    }
+
+    .flatpackParagraph{
+        padding: 0 5px;
+        text-align: center;
+    }
+
+    .flatpackHref a {
+        padding-left: 30px;
+        padding-right: 0;
+    }
+}
+
+@media(max-width:479px){
+
+    .mainLanding{
+        font-size: 11px;
+    }
+
+    .container{
+        max-width: 1200px;
+        width: 100%;
+    }
+
+    .awesomeHeading{
+        padding: 30px 0;
+    }
+
+    .headingSection{
+        padding: 20px 10px;
+    }
+
+    .headingSection h1{
+        font-size: 20px;
+    }
+
+    .mainMenu{
+        font-size: 12px;
+    }
+
+    .drinksAndFood h2{
+        font-size: 17px;
+    }
+
+    .drinksAndFood img{
+        width: 100px;
+    }
+
+    .theBestCompanies{
+        font-size: 8px;
+    }
+
+    .theBestCompanies h4{
+        font-size: 12px;
+    }
+
+    .col-sm-6{
+        padding: 0;
+    }
+
+    .restaurant{
+        padding: 20px 10px;
+        font-size: 11px;
+        text-align: left;
+    }
+
+    .restaurant p{
+        padding: 0 240px 0 0;
+    }
+
+    .restaurant h2{
+        font-size: 18px;
+    }
+
+    .restaurant h1{
+        font-size: 15px;
+    }
+
+    .restaurant a{
+        margin: 10px 40px;
+    }
+
+    .tab-pane{
+        padding: 20px 30px;
+    }
+
+    .awesomeParagraph1{
+        font-size: 25px;
+    }
+
+    .awesomeParagraph{
+        font-size: 12px;
+    }
+
+    .smithDue{
+        display: block;
+    }
+
+    .markDue{
+        margin: auto;
+    }
+
+    .markDue p{
+        padding: 15px 0px;
+    }
+
+    .reservationPoput{
+        padding: 50px 0;
+    }
+
+    .madeForMarketers{
+        padding: 0;
+        font-size: 10px;
+    }
+
+    .flatpackPic img{
+        width: 115px;
+    }
+
+    .flatpackHref{
+        padding: 0;
+        font-size: 24px;
+    }
+
+}

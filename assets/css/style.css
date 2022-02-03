@@ -1,0 +1,725 @@
+/* line 3, ../zadatak8/assets/sass/style.scss */
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* line 8, ../zadatak8/assets/sass/style.scss */
+body {
+  position: relative;
+}
+
+/* line 13, ../zadatak8/assets/sass/style.scss */
+.flex {
+  display: flex;
+}
+
+/* line 17, ../zadatak8/assets/sass/style.scss */
+.relative {
+  position: relative;
+}
+
+/* line 21, ../zadatak8/assets/sass/style.scss */
+.restaurantLandingPage {
+  background: url("../images/image-intro.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 31, ../zadatak8/assets/sass/style.scss */
+.navBar {
+  justify-content: space-between;
+  position: absolute;
+  top: 0;
+  padding: 30px 120px 0 120px;
+}
+
+/* line 38, ../zadatak8/assets/sass/style.scss */
+li.nav-item img {
+  width: 20px;
+}
+
+/* line 42, ../zadatak8/assets/sass/style.scss */
+.icons a {
+  text-decoration: none;
+  color: #e3e3e3;
+  font-size: 20px;
+}
+
+/* line 48, ../zadatak8/assets/sass/style.scss */
+.icons ul {
+  list-style-type: none;
+}
+
+/* line 52, ../zadatak8/assets/sass/style.scss */
+.icons li {
+  padding-right: 40px;
+}
+
+/* line 56, ../zadatak8/assets/sass/style.scss */
+.iconsImg img {
+  width: 20px;
+}
+
+/* line 60, ../zadatak8/assets/sass/style.scss */
+.iconsImg li {
+  padding-right: 15px;
+}
+
+/* line 64, ../zadatak8/assets/sass/style.scss */
+.arrow {
+  position: absolute;
+  bottom: 0;
+  color: white;
+  font-size: 40px;
+}
+
+/* line 71, ../zadatak8/assets/sass/style.scss */
+.arrow i {
+  cursor: pointer;
+}
+
+/* line 75, ../zadatak8/assets/sass/style.scss */
+.mainLanding h1 {
+  color: white;
+  font-size: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* line 82, ../zadatak8/assets/sass/style.scss */
+.mainLanding p {
+  color: #e3e3e3;
+  margin-bottom: 20px;
+}
+
+/* line 88, ../zadatak8/assets/sass/style.scss */
+.makeAReservationLink {
+  text-align: center;
+  padding-top: 30px;
+}
+
+/* line 93, ../zadatak8/assets/sass/style.scss */
+.makeAReservationLink a {
+  text-decoration: none;
+  border: 2px solid white;
+  color: white;
+  padding: 15px;
+  font-size: 30px;
+}
+
+/* line 101, ../zadatak8/assets/sass/style.scss */
+.makeAReservationLink img {
+  width: 25px;
+}
+
+/* line 105, ../zadatak8/assets/sass/style.scss */
+.headingSection {
+  width: 50%;
+}
+
+/* line 109, ../zadatak8/assets/sass/style.scss */
+.headingSection h1 {
+  font-size: 50px;
+}
+
+/* line 113, ../zadatak8/assets/sass/style.scss */
+.headingSection p {
+  padding: 50px 250px 50px 0;
+}
+
+/* line 117, ../zadatak8/assets/sass/style.scss */
+.textSection h3 {
+  padding: 50px 361px 30px 0;
+}
+
+/* line 121, ../zadatak8/assets/sass/style.scss */
+.drinksAndFood {
+  width: 33.3%;
+  text-align: center;
+}
+
+/* line 126, ../zadatak8/assets/sass/style.scss */
+.drinksAndFood p {
+  padding: 20px 10px;
+}
+
+/* line 130, ../zadatak8/assets/sass/style.scss */
+.drinksAndFood a {
+  text-decoration: none;
+  color: darkorange;
+  border: 2px solid darkorange;
+  padding: 10px;
+  display: inline-block;
+}
+
+/* line 138, ../zadatak8/assets/sass/style.scss */
+.makeAwesomeHeading {
+  margin-bottom: 70px;
+}
+
+/* line 142, ../zadatak8/assets/sass/style.scss */
+.pixFort {
+  align-items: center;
+}
+
+/* line 146, ../zadatak8/assets/sass/style.scss */
+.howTrust {
+  background: #f0f0f0;
+}
+
+/* line 150, ../zadatak8/assets/sass/style.scss */
+.theBestCompanies {
+  width: 25%;
+  padding: 40px;
+}
+
+/* line 155, ../zadatak8/assets/sass/style.scss */
+.commercePics {
+  width: 75%;
+}
+
+/* line 157, ../zadatak8/assets/sass/style.scss */
+.commercePics img {
+  width: 32%;
+}
+
+/* line 163, ../zadatak8/assets/sass/style.scss */
+.highQuality {
+  position: relative;
+}
+
+/* line 167, ../zadatak8/assets/sass/style.scss */
+.backgroundImg {
+  background: url("../images/hl-6.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  position: absolute;
+  width: 50%;
+  right: 0;
+  height: 100%;
+}
+
+/* line 177, ../zadatak8/assets/sass/style.scss */
+.restaurant {
+  padding: 60px;
+}
+
+/* line 181, ../zadatak8/assets/sass/style.scss */
+.backgroundImgLeft {
+  background: url("../images/hl-6.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  position: absolute;
+  width: 50%;
+  left: 0;
+  height: 100%;
+}
+
+/* line 191, ../zadatak8/assets/sass/style.scss */
+.emptyRight {
+  width: 50%;
+}
+
+/* line 195, ../zadatak8/assets/sass/style.scss */
+.visitOurRestaurant {
+  background: #292828;
+  justify-content: center;
+  text-align: center;
+}
+
+/* line 201, ../zadatak8/assets/sass/style.scss */
+.reservationPoput {
+  color: white;
+  padding: 50px 490px;
+}
+
+@media (max-width: 1200px) {
+  /* line 201, ../zadatak8/assets/sass/style.scss */
+  .reservationPoput {
+    padding: 50px 300px;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 201, ../zadatak8/assets/sass/style.scss */
+  .reservationPoput {
+    padding: 50px 270px;
+  }
+}
+
+/* line 212, ../zadatak8/assets/sass/style.scss */
+.bigHeadingP {
+  font-size: 50px;
+}
+
+/* line 217, ../zadatak8/assets/sass/style.scss */
+.grayTextP {
+  color: #c5c3c3;
+}
+
+/* line 222, ../zadatak8/assets/sass/style.scss */
+.reservationPoput a {
+  text-decoration: none;
+  color: darkorange;
+  border: 2px solid darkorange;
+  padding: 10px 20px;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+@media (max-width: 991px) {
+  /* line 222, ../zadatak8/assets/sass/style.scss */
+  .reservationPoput a {
+    color: yellow;
+  }
+}
+
+/* line 235, ../zadatak8/assets/sass/style.scss */
+.wineGlass i {
+  font-size: 50px;
+  color: darkorange;
+  padding-top: 40px;
+}
+
+/* line 241, ../zadatak8/assets/sass/style.scss */
+.flatpack {
+  background: #222121;
+}
+
+/* line 245, ../zadatak8/assets/sass/style.scss */
+.flatpackPic {
+  width: 32%;
+  text-align: center;
+  padding: 50px;
+}
+
+/* line 251, ../zadatak8/assets/sass/style.scss */
+.flatpackParagraph {
+  width: 32%;
+  padding: 50px 30px 0 0;
+}
+
+/* line 256, ../zadatak8/assets/sass/style.scss */
+.flatpackHref {
+  display: flex;
+  width: 32%;
+  font-size: 50px;
+  padding: 30px;
+}
+
+/* line 261, ../zadatak8/assets/sass/style.scss */
+.flatpackHref a {
+  padding-right: 30px;
+}
+
+/* line 267, ../zadatak8/assets/sass/style.scss */
+.awesomeParagraph {
+  width: 50%;
+}
+
+/* line 271, ../zadatak8/assets/sass/style.scss */
+.awesomeParagraph1 {
+  width: 50%;
+  font-size: 40px;
+  padding: 50px 70px 50px 50px;
+  text-align: right;
+}
+
+/* line 278, ../zadatak8/assets/sass/style.scss */
+.awesomeParagraph p {
+  padding: 50px 250px 50px 0;
+}
+
+/* line 283, ../zadatak8/assets/sass/style.scss */
+.markDue {
+  width: 50%;
+  text-align: center;
+}
+
+/* line 288, ../zadatak8/assets/sass/style.scss */
+.markDue img {
+  border-radius: 50%;
+  padding: 30px;
+}
+
+/* line 293, ../zadatak8/assets/sass/style.scss */
+.markDue p {
+  padding: 10px 60px;
+}
+
+/* line 297, ../zadatak8/assets/sass/style.scss */
+.markAndJohn {
+  background: whitesmoke;
+  padding-bottom: 50px;
+}
+
+/* line 303, ../zadatak8/assets/sass/style.scss */
+.restaurant a {
+  text-decoration: none;
+  border: 2px solid black;
+  padding: 10px 20px;
+  color: black;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+/* line 312, ../zadatak8/assets/sass/style.scss */
+.restaurant h2 {
+  padding: 20px 0;
+  color: darkorange;
+}
+
+/* line 317, ../zadatak8/assets/sass/style.scss */
+.everyStartup {
+  text-align: center;
+  padding: 60px 220px;
+}
+
+/* line 322, ../zadatak8/assets/sass/style.scss */
+.everyStartup h2 {
+  color: blueviolet;
+  padding: 20px;
+}
+
+/* line 327, ../zadatak8/assets/sass/style.scss */
+.newSection .nav-tabs {
+  border-bottom: 1px solid #dee2e6;
+  max-width: 300px;
+  margin: auto;
+  border: 0;
+}
+
+/* line 334, ../zadatak8/assets/sass/style.scss */
+.newSection {
+  padding-top: 60px;
+}
+
+/* line 339, ../zadatak8/assets/sass/style.scss */
+.newSection .nav-tabs li a.active {
+  background: blue;
+  color: white;
+}
+
+/* line 344, ../zadatak8/assets/sass/style.scss */
+.reservationModal h5.modal-title {
+  color: blue !important;
+}
+
+/* line 348, ../zadatak8/assets/sass/style.scss */
+.reservationModal .modal-dialog {
+  max-width: 600px;
+}
+
+/* line 352, ../zadatak8/assets/sass/style.scss */
+.mainNav {
+  position: absolute;
+  top: 0;
+  max-width: 992px;
+  width: 100%;
+}
+
+/* line 359, ../zadatak8/assets/sass/style.scss */
+.secondSection {
+  padding: 40px;
+}
+
+/* .navbar-collapse.show {
+    background: white;
+    left: 0px;
+    position: fixed;
+    top: 0;
+    width: 200px;
+    height: 100%;
+}
+
+.navbar-collapse {
+    left: -200px;
+    transition: all 0.4s;
+} */
+@media (max-width: 1200px) {
+  /* line 379, ../zadatak8/assets/sass/style.scss */
+  .highQuality .container {
+    max-width: 1200px;
+    width: 100%;
+  }
+  /* line 384, ../zadatak8/assets/sass/style.scss */
+  .restaurant {
+    text-align: center;
+    padding: 30px 70px;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 391, ../zadatak8/assets/sass/style.scss */
+  .mainLanding {
+    padding-top: 90px;
+    PADDING-BOTTOM: 90px;
+  }
+  /* line 396, ../zadatak8/assets/sass/style.scss */
+  .restaurantLandingPage {
+    height: auto;
+  }
+  /* line 399, ../zadatak8/assets/sass/style.scss */
+  nav.navbar.navbar-expand-lg.navbar-light.mainNav {
+    padding: 10px 50px;
+  }
+  /* line 402, ../zadatak8/assets/sass/style.scss */
+  .headingSection {
+    padding: 0;
+  }
+  /* line 406, ../zadatak8/assets/sass/style.scss */
+  .headingSection h1 {
+    text-align: center;
+    font-size: 40px;
+  }
+  /* line 411, ../zadatak8/assets/sass/style.scss */
+  .headingSection p {
+    padding: 0;
+  }
+  /* line 415, ../zadatak8/assets/sass/style.scss */
+  .awesomeHeading {
+    align-items: center;
+    padding: 80px 0;
+  }
+  /* line 420, ../zadatak8/assets/sass/style.scss */
+  .drinksAndFood h2 {
+    font-size: 25px;
+  }
+  /* line 424, ../zadatak8/assets/sass/style.scss */
+  .highQuality .container {
+    max-width: 1200px;
+    width: 100%;
+  }
+  /* line 429, ../zadatak8/assets/sass/style.scss */
+  .restaurant {
+    text-align: center;
+    padding: 30px 30px;
+  }
+  /* line 434, ../zadatak8/assets/sass/style.scss */
+  .theBestCompanies {
+    width: 40%;
+  }
+  /* line 438, ../zadatak8/assets/sass/style.scss */
+  .commercePics {
+    width: 60%;
+  }
+  /* line 442, ../zadatak8/assets/sass/style.scss */
+  .awesomeParagraph1 {
+    padding: 0;
+    text-align: inherit;
+  }
+  /* line 447, ../zadatak8/assets/sass/style.scss */
+  .awesomeParagraph p {
+    padding: 0;
+  }
+  /* line 453, ../zadatak8/assets/sass/style.scss */
+  .madeForMarketers {
+    align-items: center;
+  }
+  /* line 457, ../zadatak8/assets/sass/style.scss */
+  .flatpackPic {
+    padding: 50px 0;
+  }
+  /* line 461, ../zadatak8/assets/sass/style.scss */
+  .flatpackPic img {
+    width: 150px;
+  }
+  /* line 465, ../zadatak8/assets/sass/style.scss */
+  .flatpackParagraph {
+    padding: 0 25px;
+  }
+  /* line 469, ../zadatak8/assets/sass/style.scss */
+  .flatpackHref {
+    font-size: 35px;
+  }
+  /* line 473, ../zadatak8/assets/sass/style.scss */
+  .flatpack {
+    padding: 30px 0;
+  }
+  /* line 477, ../zadatak8/assets/sass/style.scss */
+  .flatpackPic {
+    text-align: inherit;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 484, ../zadatak8/assets/sass/style.scss */
+  .mainLanding h1 {
+    font-size: 30px;
+  }
+  /* line 488, ../zadatak8/assets/sass/style.scss */
+  .mainLanding p {
+    padding: 0 130px;
+    text-align: center;
+  }
+  /* line 493, ../zadatak8/assets/sass/style.scss */
+  .makeAReservationLink a {
+    font-size: 15px;
+  }
+  /* .highQuality .container{
+            max-width: 1200px;
+            width: 100%; 
+    }*/
+  /* line 502, ../zadatak8/assets/sass/style.scss */
+  .container {
+    max-width: 1200px;
+    width: 100%;
+  }
+  /* line 507, ../zadatak8/assets/sass/style.scss */
+  .restaurant {
+    text-align: center;
+  }
+  /* line 511, ../zadatak8/assets/sass/style.scss */
+  .restaurant h2 {
+    font-size: 20px;
+  }
+  /* line 515, ../zadatak8/assets/sass/style.scss */
+  .restaurant p {
+    padding: 0 30px;
+  }
+  /* line 519, ../zadatak8/assets/sass/style.scss */
+  .tab-pane {
+    padding: 30px 100px;
+  }
+  /* line 523, ../zadatak8/assets/sass/style.scss */
+  .awesomeParagraph1 {
+    text-align: center;
+  }
+  /* line 527, ../zadatak8/assets/sass/style.scss */
+  .reservationPoput {
+    padding: 50px;
+  }
+  /* line 531, ../zadatak8/assets/sass/style.scss */
+  .flatpackPic {
+    text-align: center;
+  }
+  /* line 535, ../zadatak8/assets/sass/style.scss */
+  .flatpackParagraph {
+    padding: 0 5px;
+    text-align: center;
+  }
+  /* line 540, ../zadatak8/assets/sass/style.scss */
+  .flatpackHref a {
+    padding-left: 30px;
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 479px) {
+  /* line 548, ../zadatak8/assets/sass/style.scss */
+  .mainLanding {
+    font-size: 11px;
+  }
+  /* line 552, ../zadatak8/assets/sass/style.scss */
+  .container {
+    max-width: 1200px;
+    width: 100%;
+  }
+  /* line 557, ../zadatak8/assets/sass/style.scss */
+  .awesomeHeading {
+    padding: 30px 0;
+  }
+  /* line 561, ../zadatak8/assets/sass/style.scss */
+  .headingSection {
+    padding: 20px 10px;
+  }
+  /* line 565, ../zadatak8/assets/sass/style.scss */
+  .headingSection h1 {
+    font-size: 20px;
+  }
+  /* line 569, ../zadatak8/assets/sass/style.scss */
+  .mainMenu {
+    font-size: 12px;
+  }
+  /* line 573, ../zadatak8/assets/sass/style.scss */
+  .drinksAndFood h2 {
+    font-size: 17px;
+  }
+  /* line 577, ../zadatak8/assets/sass/style.scss */
+  .drinksAndFood img {
+    width: 100px;
+  }
+  /* line 581, ../zadatak8/assets/sass/style.scss */
+  .theBestCompanies {
+    font-size: 8px;
+  }
+  /* line 585, ../zadatak8/assets/sass/style.scss */
+  .theBestCompanies h4 {
+    font-size: 12px;
+  }
+  /* line 589, ../zadatak8/assets/sass/style.scss */
+  .col-sm-6 {
+    padding: 0;
+  }
+  /* line 593, ../zadatak8/assets/sass/style.scss */
+  .restaurant {
+    padding: 20px 10px;
+    font-size: 11px;
+    text-align: left;
+  }
+  /* line 599, ../zadatak8/assets/sass/style.scss */
+  .restaurant p {
+    padding: 0 240px 0 0;
+  }
+  /* line 603, ../zadatak8/assets/sass/style.scss */
+  .restaurant h2 {
+    font-size: 18px;
+  }
+  /* line 607, ../zadatak8/assets/sass/style.scss */
+  .restaurant h1 {
+    font-size: 15px;
+  }
+  /* line 611, ../zadatak8/assets/sass/style.scss */
+  .restaurant a {
+    margin: 10px 40px;
+  }
+  /* line 615, ../zadatak8/assets/sass/style.scss */
+  .tab-pane {
+    padding: 20px 30px;
+  }
+  /* line 619, ../zadatak8/assets/sass/style.scss */
+  .awesomeParagraph1 {
+    font-size: 25px;
+  }
+  /* line 623, ../zadatak8/assets/sass/style.scss */
+  .awesomeParagraph {
+    font-size: 12px;
+  }
+  /* line 627, ../zadatak8/assets/sass/style.scss */
+  .smithDue {
+    display: block;
+  }
+  /* line 631, ../zadatak8/assets/sass/style.scss */
+  .markDue {
+    margin: auto;
+  }
+  /* line 635, ../zadatak8/assets/sass/style.scss */
+  .markDue p {
+    padding: 15px 0px;
+  }
+  /* line 639, ../zadatak8/assets/sass/style.scss */
+  .reservationPoput {
+    padding: 50px 0;
+  }
+  /* line 643, ../zadatak8/assets/sass/style.scss */
+  .madeForMarketers {
+    padding: 0;
+    font-size: 10px;
+  }
+  /* line 648, ../zadatak8/assets/sass/style.scss */
+  .flatpackPic img {
+    width: 115px;
+  }
+  /* line 652, ../zadatak8/assets/sass/style.scss */
+  .flatpackHref {
+    padding: 0;
+    font-size: 24px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
